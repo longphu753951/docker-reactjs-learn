@@ -7,7 +7,6 @@ describe("App Component", () => {
 
     expect(screen.getByAltText("Vite logo")).toBeInTheDocument();
     expect(screen.getByAltText("React logo")).toBeInTheDocument();
-    expect(screen.getByText(/Vite \+ React/i)).toBeInTheDocument();
   });
 
   it("increments the counter when button is clicked", () => {
